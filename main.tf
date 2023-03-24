@@ -1,3 +1,8 @@
+credentials "app.terraform.io" {
+  token = "ghaot-J69gfHyWm68xV2BH"
+}
+
+
 terraform {
   cloud {
     organization = "kumardasaipersonal"
