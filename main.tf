@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-    region = "us-east-1"
+  # Configuration options
 }
 
 resource "aws_vpc" "ntier" {
