@@ -47,6 +47,7 @@ resource "aws_instance" "web" {
 		Name = "TerraformEc2"
 	}
 }
+
 #Assuming an IAM Role
 #If provided with a role ARN, the AWS Provider will attempt to assume this role using the supplied credentials.
 #Usage:
