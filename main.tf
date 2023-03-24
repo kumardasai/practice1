@@ -3,17 +3,6 @@ credentials "app.terraform.io" {
 }
 
 
-terraform {
-  cloud {
-    organization = "kumardasaipersonal"
-
-    workspaces {
-      name = "kumardasaipersonal"
-    }
-  }
-}
-
-
 provider "aws" {
     region = "us-east-1"
 }
