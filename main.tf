@@ -39,21 +39,9 @@ resource "aws_subnet" "app2" {
 
 }
 
-data "aws_ami" "ubuntu" {
-	most_recent = true
-	filter {
-		name = "name"
-		values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20230208"]
-	}
-
-	filter{
-		name = "virtualization-type"
-		values = ["hvm"]
-	}
-}
 
 resource "aws_instance" "web" {
-	ami = data.aws_ami.ubuntu.id
+	ami = "ami-0557a15b87f6559cf"
 	instance_type = "t2.micro"
 	tags = {
 		Name = "TerraformEc2"
