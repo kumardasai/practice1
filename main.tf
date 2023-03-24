@@ -8,7 +8,7 @@
            name = "kumardasaipersonal-workspace"
          }
        }
-     }
+
 
 provider "aws" {
     region = "us-east-1"
@@ -70,3 +70,6 @@ resource "aws_instance" "web" {
 #    external_id  = "EXTERNAL_ID"
 #  }
 #}
+
+	     
+     }
