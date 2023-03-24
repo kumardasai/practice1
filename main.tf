@@ -1,8 +1,3 @@
-credentials "app.terraform.io" {
-  token = "ghaot-J69gfHyWm68xV2BH"
-}
-
-
 provider "aws" {
     region = "us-east-1"
 }
