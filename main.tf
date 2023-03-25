@@ -8,7 +8,9 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
+  region = us-east-1
+  shared_credentials_file = "C:/Users/pavan.dasari/.aws/credentials"
+  profile = "testing"
 }
 
 resource "aws_vpc" "ntier" {
