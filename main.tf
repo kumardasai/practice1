@@ -36,7 +36,6 @@ resource "aws_instance" "web" {
 	}
 }
 
-
 #Assuming an IAM Role
 #If provided with a role ARN, the AWS Provider will attempt to assume this role using the supplied credentials.
 #Usage:
