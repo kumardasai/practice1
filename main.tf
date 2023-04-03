@@ -1,5 +1,5 @@
 provider "aws" {
-    shared_credentials_files = ["~/.aws/credentials"]
+    shared_credentials_files = ["C:/Users/pavan.dasari/.aws/credentials"]
 }
 
 resource "aws_vpc" "ntier" {
