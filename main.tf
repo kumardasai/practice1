@@ -1,5 +1,6 @@
 provider "aws" {
   # Configuration options
+  profile = "default"
 }
 
 resource "aws_vpc" "ntier" {
